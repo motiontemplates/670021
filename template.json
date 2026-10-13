@@ -1,0 +1,84 @@
+{
+  "format": "motiongit.discovery/1",
+  "repositoryId": "670021",
+  "templateId": 588,
+  "owner": "motiongit",
+  "slug": "motiongit-promo-user",
+  "website": "https://motiongit.com/@motiongit/motiongit-promo-user",
+  "checkedAt": "2026-10-13",
+  "availability": "demo-only",
+  "title": {
+    "en": "Workflow Demo · Product Tutorial",
+    "zh": "流程演示 · 产品教程"
+  },
+  "summary": {
+    "en": "Walk through choosing a template, providing content and producing a video for a product tutorial.",
+    "zh": "沿着选择模板、提供内容、生成视频的流程讲解产品使用，适合工具教程和上手演示。"
+  },
+  "subtitle": {
+    "en": "Workflow Demo · Product Tutorial",
+    "zh": "流程演示 · 产品教程"
+  },
+  "category": {
+    "en": "product",
+    "zh": "product"
+  },
+  "ratio": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationSeconds": 58.75,
+  "demo": {
+    "en": "https://media.openaicut.com/previews/588/draft-en-2422d5a878da.mp4",
+    "zh": "https://motiongit.com/@motiongit/motiongit-promo-user?lang=zh",
+    "poster": "https://motiongit.com/media/covers/588/quality-zh-aa230abfebe6.jpg"
+  },
+  "materials": [
+    {
+      "en": "Sourceedits: content items, at most 256 items.",
+      "zh": "Sourceedits：内容，最多 256 项。",
+      "required": true
+    },
+    {
+      "en": "Voiceover: text, up to 240 characters.",
+      "zh": "Voiceover：文字，不超过 240 个字符。",
+      "required": true
+    }
+  ],
+  "dependencies": [
+    {
+      "en": "The package declares a Python and Node.js host. Check its dependency lock for supported versions and any additional rendering tools.",
+      "zh": "模板声明使用 Python 和 Node.js。具体工具与版本以下载包为准。"
+    },
+    {
+      "en": "Use the package dependency lock and setup/check instructions. Check existing tools first, install only missing requirements and verify a preview.",
+      "zh": "按下载包的依赖锁和 setup/check 说明检查已有工具，只补齐缺项，并验证预览。"
+    }
+  ],
+  "goodFor": {
+    "en": [
+      "Adapt the existing product copy, data and brand slots while preserving the complete native animation, composition and timeline."
+    ],
+    "zh": [
+      "Adapt the existing product copy, data and brand slots while preserving the complete native animation, composition and timeline."
+    ]
+  },
+  "boundaries": {
+    "en": [
+      "The documented output is 1920 × 1080, 60 fps; default demo duration is 58.75 seconds.",
+      "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
+      "Changing the scene order or engine; the frozen original source and timeline remain authoritative."
+    ],
+    "zh": [
+      "已声明输出为 1920 × 1080，60 fps；默认样片 58.75 秒。",
+      "按实际包的参数边界制作；增加素材不会自动增加场景。"
+    ]
+  },
+  "capabilities": [
+    {
+      "en": "Optional services require a live catalog, template slot and account check before they can be confirmed.",
+      "zh": "配套服务需核对官网实时能力、模板槽位和账号权限后才能确认。",
+      "status": "check-live"
+    }
+  ]
+}
