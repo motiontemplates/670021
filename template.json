@@ -5,7 +5,7 @@
   "owner": "motiongit",
   "slug": "motiongit-promo-user",
   "website": "https://motiongit.com/@motiongit/motiongit-promo-user",
-  "checkedAt": "2026-10-13",
+  "checkedAt": "2026-10-14",
   "availability": "download-available",
   "title": {
     "en": "Workflow Demo · Product Tutorial",
@@ -43,6 +43,21 @@
       "en": "Voiceover: text, up to 240 characters.",
       "zh": "Voiceover：文字，不超过 240 个字符。",
       "required": true
+    },
+    {
+      "en": "Voiceovermode: text. Explicit current-production voice choice; no original-mix fallback..",
+      "zh": "Voiceovermode：文字。",
+      "required": true
+    },
+    {
+      "en": "Soundtrackmode: text. Independent current music, or explicitly no music. Voice is a separate choice. Original music/SFX recovery is not certified..",
+      "zh": "Soundtrackmode：文字。",
+      "required": true
+    },
+    {
+      "en": "Music: text, up to 240 characters. Input-root relative full-length licensed music; required for external-music, empty for none. No automatic looping or silent music tail..",
+      "zh": "Music：文字，不超过 240 个字符。",
+      "required": true
     }
   ],
   "dependencies": [
@@ -57,17 +72,18 @@
   ],
   "goodFor": {
     "en": [
-      "Adapt the existing product copy, data and brand slots while preserving the complete native animation, composition and timeline."
+      "Fixed landscape animation using the listed public text/display-data/palette slots, current narration and independently supplied licensed music."
     ],
     "zh": [
-      "Adapt the existing product copy, data and brand slots while preserving the complete native animation, composition and timeline."
+      "Fixed landscape animation using the listed public text/display-data/palette slots, current narration and independently supplied licensed music."
     ]
   },
   "boundaries": {
     "en": [
       "The documented output is 1920 × 1080, 60 fps; default demo duration is 58.75 seconds.",
       "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
-      "Changing the scene order or engine; the frozen original source and timeline remain authoritative."
+      "Changing the scene order or engine; the frozen original source and timeline remain authoritative.",
+      "Automatic replacement of product images/videos or brand paths/marks: no declared media import slot in this candidate. Preserve fixed demonstration visuals only when they are relevant; otherwise this route is not suitable."
     ],
     "zh": [
       "已声明输出为 1920 × 1080，60 fps；默认样片 58.75 秒。",

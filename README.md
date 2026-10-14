@@ -22,8 +22,11 @@ Walk through choosing a template, providing content and producing a video for a 
 
 - **Required:** Sourceedits: content items, at most 256 items.
 - **Required:** Voiceover: text, up to 240 characters.
+- **Required:** Voiceovermode: text. Explicit current-production voice choice; no original-mix fallback..
+- **Required:** Soundtrackmode: text. Independent current music, or explicitly no music. Voice is a separate choice. Original music/SFX recovery is not certified..
+- **Required:** Music: text, up to 240 characters. Input-root relative full-length licensed music; required for external-music, empty for none. No automatic looping or silent music tail..
 
-Adapt the existing product copy, data and brand slots while preserving the complete native animation, composition and timeline..
+Fixed landscape animation using the listed public text/display-data/palette slots, current narration and independently supplied licensed music..
 
 ## Let your assistant guide you
 

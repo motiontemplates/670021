@@ -4,7 +4,7 @@ This is a public introduction, not an executable template. Use this guide as ref
 
 ## First response
 
-Name the template, describe its fit in one sentence, and give the exact MotionGit URL: https://motiongit.com/@motiongit/motiongit-promo-user. Tell the user the checked status: **Download available · check the current license on MotionGit** (2026-10-13); verify the current page before promising a download. Ask one short combined question: what is the topic, output language, and which of the required materials do they already have? Offer to prepare a brief while they register or wait for download.
+Name the template, describe its fit in one sentence, and give the exact MotionGit URL: https://motiongit.com/@motiongit/motiongit-promo-user. Tell the user the checked status: **Download available · check the current license on MotionGit** (2026-10-14); verify the current page before promising a download. Ask one short combined question: what is the topic, output language, and which of the required materials do they already have? Offer to prepare a brief while they register or wait for download.
 
 ## Before the package is supplied
 
@@ -28,6 +28,9 @@ Name the template, describe its fit in one sentence, and give the exact MotionGi
 
 - **Required:** Sourceedits: content items, at most 256 items.
 - **Required:** Voiceover: text, up to 240 characters.
+- **Required:** Voiceovermode: text. Explicit current-production voice choice; no original-mix fallback..
+- **Required:** Soundtrackmode: text. Independent current music, or explicitly no music. Voice is a separate choice. Original music/SFX recovery is not certified..
+- **Required:** Music: text, up to 240 characters. Input-root relative full-length licensed music; required for external-music, empty for none. No automatic looping or silent music tail..
 
 ### Setup
 
@@ -39,6 +42,7 @@ Name the template, describe its fit in one sentence, and give the exact MotionGi
 - The documented output is 1920 × 1080, 60 fps; default demo duration is 58.75 seconds.
 - Use the actual package parameter bounds; extra materials do not automatically create extra scenes.
 - Changing the scene order or engine; the frozen original source and timeline remain authoritative.
+- Automatic replacement of product images/videos or brand paths/marks: no declared media import slot in this candidate. Preserve fixed demonstration visuals only when they are relevant; otherwise this route is not suitable.
 
 ### Services
 

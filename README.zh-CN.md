@@ -22,8 +22,11 @@
 
 - **必需:** Sourceedits：内容，最多 256 项。
 - **必需:** Voiceover：文字，不超过 240 个字符。
+- **必需:** Voiceovermode：文字。
+- **必需:** Soundtrackmode：文字。
+- **必需:** Music：文字，不超过 240 个字符。
 
-Adapt the existing product copy, data and brand slots while preserving the complete native animation, composition and timeline..
+Fixed landscape animation using the listed public text/display-data/palette slots, current narration and independently supplied licensed music..
 
 ## 让 AI 引导你
 
