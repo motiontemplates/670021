@@ -5,6 +5,19 @@
   "owner": "motiongit",
   "slug": "motiongit-promo-user",
   "website": "https://motiongit.com/@motiongit/motiongit-promo-user",
+  "version": "2.5.1",
+  "technical": {
+    "en": [
+      "Declared runtime profile: html-canvas/1.",
+      "Editable inputs are mapped through the template parameter schema and preset to its existing animation project.",
+      "The declared timeline has a fixed duration; new content fits its existing scene order and timing."
+    ],
+    "zh": [
+      "声明的运行配置：html-canvas/1。",
+      "通过模板参数和预设，将本期文字、数据或素材映射到已有动画工程。",
+      "已声明时间轴为固定时长，本期内容按现有场景顺序和节奏适配。"
+    ]
+  },
   "checkedAt": "2026-10-14",
   "availability": "download-available",
   "title": {
@@ -35,29 +48,19 @@
   },
   "materials": [
     {
-      "en": "Sourceedits: content items, at most 256 items.",
-      "zh": "Sourceedits：内容，最多 256 项。",
+      "en": "Your topic, script and facts to preserve.",
+      "zh": "本期主题、文稿与需要准确保留的信息。",
       "required": true
     },
     {
-      "en": "Voiceover: text, up to 240 characters.",
-      "zh": "Voiceover：文字，不超过 240 个字符。",
-      "required": true
+      "en": "The current voice recording or your narration preference for this production.",
+      "zh": "本期配音文件，或是否需要配音的安排。",
+      "required": false
     },
     {
-      "en": "Voiceovermode: text. Explicit current-production voice choice; no original-mix fallback..",
-      "zh": "Voiceovermode：文字。",
-      "required": true
-    },
-    {
-      "en": "Soundtrackmode: text. Independent current music, or explicitly no music. Voice is a separate choice. Original music/SFX recovery is not certified..",
-      "zh": "Soundtrackmode：文字。",
-      "required": true
-    },
-    {
-      "en": "Music: text, up to 240 characters. Input-root relative full-length licensed music; required for external-music, empty for none. No automatic looping or silent music tail..",
-      "zh": "Music：文字，不超过 240 个字符。",
-      "required": true
+      "en": "A licensed music track or your preference for music in this production.",
+      "zh": "本期已授权配乐，或本期是否需要配乐的偏好。",
+      "required": false
     }
   ],
   "dependencies": [
@@ -80,13 +83,13 @@
   },
   "boundaries": {
     "en": [
-      "The documented output is 1920 × 1080, 60 fps; default demo duration is 58.75 seconds.",
+      "The documented output is 1920 × 1080, 60 fps. The public demo is 58.75 seconds.",
       "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
       "Changing the scene order or engine; the frozen original source and timeline remain authoritative.",
       "Automatic replacement of product images/videos or brand paths/marks: no declared media import slot in this candidate. Preserve fixed demonstration visuals only when they are relevant; otherwise this route is not suitable."
     ],
     "zh": [
-      "已声明输出为 1920 × 1080，60 fps；默认样片 58.75 秒。",
+      "已声明输出为 1920 × 1080，60 fps；公开样片 58.75 秒。",
       "按实际包的参数边界制作；增加素材不会自动增加场景。"
     ]
   },
