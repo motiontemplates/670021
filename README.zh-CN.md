@@ -4,7 +4,7 @@
 
 沿着选择模板、提供内容、生成视频的流程讲解产品使用，适合工具教程和上手演示。
 
-**16:9 · 1920 × 1080 · 60 fps · v2.6.2** · [@motiongit](https://motiongit.com/@motiongit) · [English](README.md)
+**16:9 · 1920 × 1080 · 60 fps · v2.6.3** · [@motiongit](https://motiongit.com/@motiongit) · [English](README.md)
 
 **[模板详情、完整 .motion 与 Demo](https://motiongit.com/@motiongit/motiongit-promo-user)**
 https://motiongit.com/@motiongit/motiongit-promo-user
