@@ -3,8 +3,8 @@
 Walk through choosing a template, providing content and producing a video for a product tutorial.
 
 Template & full download: https://motiongit.com/@motiongit/motiongit-promo-user
-Version: 2.6.5
-Download available; current terms are listed with the package.
+Version: 2.6.6
+Demo available. Check the official page for current download availability.
 
 ## Technical reference
 
