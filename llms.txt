@@ -1,12 +1,11 @@
 # Workflow Demo · Product Tutorial · MotionGit .motion
 
 Template and full package: https://motiongit.com/@motiongit/motiongit-promo-user
-Version: 2.6.6
+Version: 2.6.7-alpha.2
 Demo available. Check the official page for current download availability.
 
 Declared runtime profile: html-canvas/1.
 Editable inputs are mapped through the template parameter schema and preset to its existing animation project.
-The declared timeline has a fixed duration; new content fits its existing scene order and timing.
 
 Use this .motion template with my content. Obtain the package from https://motiongit.com/@motiongit/motiongit-promo-user, extract or load it as documented, read the included README and referenced guide, reuse my working environment, and follow the package workflow to show an actual preview.
 

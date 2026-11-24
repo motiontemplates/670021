@@ -4,7 +4,7 @@
 
 Walk through choosing a template, providing content and producing a video for a product tutorial.
 
-**16:9 · 1920 × 1080 · 60 fps · v2.6.6** · [@motiongit](https://motiongit.com/@motiongit) · [简体中文](README.zh-CN.md)
+**16:9 · 1920 × 1080 · 60 fps · v2.6.7-alpha.2** · [@motiongit](https://motiongit.com/@motiongit) · [简体中文](README.zh-CN.md)
 
 Motion templates now support asset APIs for background music, stickers, images and video, with free options. Upgraded templates remain **100% free and open source**. Download the upgrade from the official MotionGit page below. MotionGit links API access to individual accounts to prevent abuse from bulk requests. See MotionGit for the scope of free API usage.
 
@@ -25,9 +25,8 @@ Demo available. Check the official page for current download availability.
 
 - Declared runtime profile: html-canvas/1.
 - Editable inputs are mapped through the template parameter schema and preset to its existing animation project.
-- The declared timeline has a fixed duration; new content fits its existing scene order and timing.
 
-Demo duration: **58.75s**. The documented output is 1920 × 1080, 60 fps. The public demo is 58.75 seconds. Use the actual package parameter bounds; extra materials do not automatically create extra scenes. Changing the scene order or engine; the frozen original source and timeline remain authoritative. Automatic replacement of product images/videos or brand paths/marks: no declared media import slot in this candidate. Preserve fixed demonstration visuals only when they are relevant; otherwise this route is not suitable.
+Demo duration: **58.75s**. The documented output is 1920 × 1080, 60 fps; default demo duration is 58.75 seconds. Use the actual package parameter bounds; extra materials do not automatically create extra scenes. Changing the scene order or engine; the frozen original source and timeline remain authoritative. Automatic replacement of product images/videos or brand paths/marks: no declared media import slot in this candidate. Preserve fixed demonstration visuals only when they are relevant; otherwise this route is not suitable.
 
 ## Inputs and materials
 

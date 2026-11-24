@@ -5,20 +5,18 @@
   "owner": "motiongit",
   "slug": "motiongit-promo-user",
   "website": "https://motiongit.com/@motiongit/motiongit-promo-user",
-  "version": "2.6.6",
+  "version": "2.6.7-alpha.2",
   "technical": {
     "en": [
       "Declared runtime profile: html-canvas/1.",
-      "Editable inputs are mapped through the template parameter schema and preset to its existing animation project.",
-      "The declared timeline has a fixed duration; new content fits its existing scene order and timing."
+      "Editable inputs are mapped through the template parameter schema and preset to its existing animation project."
     ],
     "zh": [
       "声明的运行配置：html-canvas/1。",
-      "通过模板参数和预设，将本期文字、数据或素材映射到已有动画工程。",
-      "已声明时间轴为固定时长，本期内容按现有场景顺序和节奏适配。"
+      "通过模板参数和预设，将本期文字、数据或素材映射到已有动画工程。"
     ]
   },
-  "checkedAt": "2026-11-17",
+  "checkedAt": "2026-11-24",
   "availability": "demo-only",
   "title": {
     "en": "Workflow Demo · Product Tutorial",
@@ -83,13 +81,13 @@
   },
   "boundaries": {
     "en": [
-      "The documented output is 1920 × 1080, 60 fps. The public demo is 58.75 seconds.",
+      "The documented output is 1920 × 1080, 60 fps; default demo duration is 58.75 seconds.",
       "Use the actual package parameter bounds; extra materials do not automatically create extra scenes.",
       "Changing the scene order or engine; the frozen original source and timeline remain authoritative.",
       "Automatic replacement of product images/videos or brand paths/marks: no declared media import slot in this candidate. Preserve fixed demonstration visuals only when they are relevant; otherwise this route is not suitable."
     ],
     "zh": [
-      "已声明输出为 1920 × 1080，60 fps；公开样片 58.75 秒。",
+      "已声明输出为 1920 × 1080，60 fps；默认样片 58.75 秒。",
       "按实际包的参数边界制作；增加素材不会自动增加场景。"
     ]
   },
